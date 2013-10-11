@@ -24,7 +24,6 @@
     "ejs": "~0.8.4",
     "component-builder": "~0.9.2",
     "styl": "~0.2.5",
-    "jade": "~0.35.0",
     "express": "~3.4.0"
   }
 }
