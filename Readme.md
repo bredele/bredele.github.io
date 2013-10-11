@@ -1,7 +1,8 @@
 
 # bredele.github.io
 
-  Github website
+  > if you want to know more about me
+  
 
 ## Installation
 
@@ -9,9 +10,16 @@
 
     $ component install bredele/bredele.github.io
 
-## API
 
+## Minimum viable product
+  
+  The page should display some links like linkedin github or twitter.
+  The visitor should be able to send a mail via a link.
+  The page should have some analytics.
 
+## Future
+  Multi theme
+  Weather with dynamic background
 
 ## License
 
