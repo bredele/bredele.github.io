@@ -12,10 +12,107 @@ body {
   vertical-align: middle;
   margin: 0;
 }
+@font-face {
+  font-family: 'bredele';
+  src: url("home/./fonts/bredele.eot");
+  src: url("home/./fonts/bredele.eot?#iefix") format('embedded-opentype'), url("home/./fonts/bredele.woff") format('woff'), url("home/./fonts/bredele.ttf") format('truetype'), url("home/./fonts/bredele.svg#bredele") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+[data-icon]:before {
+  font-family: 'bredele';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*/
+
+"icon-"] ;
+
+*/;
+
+.icon-github,
+.icon-twitter,
+.icon-linkedin,
+.icon-paperplane {
+  font-family: 'bredele';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-github:before {
+  content: "\e001";
+}
+
+.icon-twitter:before {
+  content: "\e002";
+}
+
+.icon-linkedin:before {
+  content: "\e003";
+}
+
+.icon-paperplane:before {
+  content: "\e000";
+}
 .vertical {
   margin: auto;
+  position: relative;
+  width: 100px;
 }
-html {
-  background: red;
+
+.bredele-img {
+  background: url("home/./assets/bredele.jpeg");
+  border-radius: 50%;
+}
+
+.fs1 {
+  position: absolute;
+  font-size: 2em;
+}
+
+.github {
+  top: -75px;
+  left: 35px;
+}
+
+.twitter {
+  left: -75px;
+  top: 35px;
+}
+
+.linkedin {
+  right: -75px;
+  top: 35px;
+}
+
+.mail {
+  bottom: -75px;
+  left: 35px;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .bredele-img {
+    background-image: url("home/./assets/bredele@2x.jpeg");
+    background-size: contain;
+  }
 }
