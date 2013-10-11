@@ -11,6 +11,11 @@ body {
   height: 100%;
   vertical-align: middle;
   margin: 0;
+  background: #e67e22;
+}
+
+a {
+  text-decoration: none;
 }
 @font-face {
   font-family: 'bredele';
@@ -82,12 +87,18 @@ you can use the generic selector below, but it's slower:
 
 .bredele-img {
   background: url("home/./assets/bredele.jpeg");
+  border: 3px solid rgba(255, 255, 255, .7);
   border-radius: 50%;
 }
 
 .fs1 {
   position: absolute;
   font-size: 2em;
+  color: rgba(255, 255, 255, .5);
+}
+
+.fs1:hover {
+  color: white;
 }
 
 .github {
