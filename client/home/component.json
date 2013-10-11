@@ -1,0 +1,12 @@
+{
+  "name": "home",
+  "description": "bredele home",
+  "main": "index.js",
+  "styles" : [
+  	"styles/reset.styl",
+  	"styles/home.styl"
+  ],
+  "scripts": [
+    "index.js"
+  ]
+}

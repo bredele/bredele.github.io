@@ -1,14 +1,9 @@
 {
   "name": "bredele.github.io",
-  "repo": "bredele/bredele.github.io",
-  "description": "Github website",
-  "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
-  "license": "MIT",
-  "main": "index.js",
-  "scripts": [
-    "index.js"
+  "paths": [
+    "client"
+  ],
+  "local": [
+    "home"
   ]
 }
