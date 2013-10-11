@@ -1,11 +1,14 @@
 
-build: components index.js
-	@component build --dev
+run: update
+	@NODE_PATH=server NODE_ENV=development ./bin/run.js
 
-components: component.json
+build: update
+	@NODE_PATH=server ./bin/build.js	
+
+update: component.json
 	@component install --dev
 
 clean:
-	rm -fr build components template.js
+	rm -fr build components 
 
 .PHONY: clean
