@@ -2,14 +2,22 @@
   "name": "home",
   "description": "bredele home",
   "main": "index.js",
-  "fonts" : ["fonts"],
-  "images" : ["assets/bredele.jpeg"],
-  "styles" : [
-  	"styles/reset.styl",
+  "fonts": [
+    "fonts"
+  ],
+  "images": [
+    "assets/bredele.jpeg"
+  ],
+  "styles": [
+    "styles/reset.styl",
     "styles/fonts.styl",
-  	"styles/home.styl"
+    "styles/home.styl"
   ],
   "scripts": [
     "index.js"
-  ]
+  ],
+  "remotes": [],
+  "dependencies": {
+    "yields/k": "*"
+  }
 }
