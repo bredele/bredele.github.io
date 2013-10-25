@@ -2,22 +2,19 @@
   "name": "home",
   "description": "bredele home",
   "main": "index.js",
-  "fonts": [
-    "fonts"
-  ],
-  "images": [
-    "assets/bredele.jpeg"
+  "scripts": [
+    "index.js",
+    "lib/posts.js"
   ],
   "styles": [
-    "styles/reset.styl",
-    "styles/fonts.styl",
     "styles/home.styl"
   ],
-  "scripts": [
-    "index.js"
-  ],
+  "templates" : ["template.html"],
   "remotes": [],
   "dependencies": {
-    "yields/k": "*"
+  	"component/once" : "*",
+  	"bredele/view" : "*",
+  	"bredele/store" : "*",
+  	"bredele/each-plugin" : "*"
   }
 }

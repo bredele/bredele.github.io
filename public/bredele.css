@@ -1,144 +1,113 @@
 
-
-
-
 html {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  height: 100%;
   font-size: 62.5%;
   font-family: "proxima-nova",sans-serif;
+  color: #57534a;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
-body {
-  display: table-cell;
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
+html,
+body,
+ul {
   margin: 0;
-  background: #e67e22;
+  padding: 0;
+}
+
+body {
+  font-size: 1.4em /* equiv 14px */;
+  line-height: 1.5;
+  height: 100%;
+}
+
+* {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
 }
-@font-face {
-  font-family: 'bredele';
-  src: url("home/./fonts/bredele.eot");
-  src: url("home/./fonts/bredele.eot?#iefix") format('embedded-opentype'), url("home/./fonts/bredele.woff") format('woff'), url("home/./fonts/bredele.ttf") format('truetype'), url("home/./fonts/bredele.svg#bredele") format('svg');
-  font-weight: normal;
-  font-style: normal;
+
+input {
+  background: transparent;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-
-[data-icon]:before {
-  font-family: 'bredele';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
-
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*/
-
-"icon-"] ;
-
-*/;
-
-.icon-github,
-.icon-twitter,
-.icon-linkedin,
-.icon-paperplane {
-  font-family: 'bredele';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+p,
+blockquote,
+pre,
+td,
+th,
+label,
+textarea,
+caption,
+details,
+figure {
+  font-size: 1em /* equiv 14px */;
+  line-height: 1.5;
+  margin: .75em 0 0;
 }
 
-.icon-github:before {
-  content: "\e001";
-}
-
-.icon-twitter:before {
-  content: "\e002";
-}
-
-.icon-linkedin:before {
-  content: "\e003";
-}
-
-.icon-paperplane:before {
-  content: "\e000";
-}
-.vertical {
-  margin: auto;
-  position: relative;
-  width: 100px;
-}
-
-.bredele-img {
-  background: url("home/./assets/bredele.jpeg");
-  border: 3px solid rgba(255, 255, 255, .7);
-  border-radius: 50%;
-}
-
-.fs1 {
+.abs {
   position: absolute;
-  font-size: 3em;
-  color: rgba(255, 255, 255, .5);
+  top: 0;
+  left: 0%;
 }
 
-.fs1:hover {
-  color: white;
+body > script {
+  display: none !important;
 }
 
-.github {
-  top: -75px;
-  left: 35px;
+h1 {
+  font-size: 1.8571em /* equiv 26px */;
+  font-weight: normal;
+  line-height: 1.6154em;
+  margin: .8077em 0 0 0;
 }
 
-.twitter {
-  left: -75px;
-  top: 35px;
+.header {
+  height: 300px;
+  background: #2B2B2B;
 }
 
-.linkedin {
-  right: -75px;
-  top: 35px;
+::selection {
+  background-color: #2B2B2B;
+  color: #eee;
 }
 
-.mail {
-  bottom: -75px;
-  left: 35px;
+
+
+
+
+
+
+
+
+.post-item {
+  color: #c7c2b8;
 }
 
-.shortcut {
-  font-size: 1.4em;
-  color: rgba(255, 255, 255, .7);
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+.post-title {
+  color: #423f37;
 }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .bredele-img {
-    background-image: url("home/./assets/bredele@2x.jpeg");
-    background-size: contain;
-  }
+.post-title:hover {
+  color: #57ad68;
+  cursor: pointer;
+}
+
+.post-type {
+  font-size: 1em;
+  color: rgba(66, 63, 55, .6);
 }

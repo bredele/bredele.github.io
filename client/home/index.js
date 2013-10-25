@@ -1,14 +1,33 @@
-var k = require('k')(window);
-var flatcolors = ['#e67e22','#3498db','#34495e','#16a085','#c0392b'];
-var index = 0;
-var style = document.createElement('style');
+
+/**
+ * Dependencies
+ */
+
+var tmpl = require('./template.html'),
+		posts = require('./lib/posts'),
+		once = require('once'),
+		View = require('view'),
+		Store = require('store'),
+		EachPlugin = require('each-plugin');
 
 
-document.head.appendChild(style);
+/**
+ * Expose 'home'
+ */
 
-k('super + shift + right', function(){
-  console.log('youhouu');
-  var inline = 'body {background:' + flatcolors[++index]+ '}';
-  style.innerHTML = inline;
-  if(index === 4) index = -1;
-});
+module.exports = once(home);
+
+
+/**
+ * home middleware.
+ * @api public
+ */
+
+function home() {
+  var view = new View(),
+  		store = new Store(posts);
+
+  view.template(tmpl);
+  view.plugin('each', new EachPlugin(store));
+  view.insert(document.querySelector('.container'));
+}

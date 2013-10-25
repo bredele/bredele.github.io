@@ -11,5 +11,5 @@ var page = require('page');
 page('/', require('home'));
 page('/blog/:post', require('blog'));
 //page('/blog/:repo/:post', edit);
-page('*', notfound);
+//page('*', notfound);
 page();

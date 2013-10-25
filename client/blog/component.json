@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "description": "bredele blog",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+  }
+}

@@ -6,7 +6,9 @@
     "index.js"
   ],
   "local": [
-    "home"
+    "bootstrap",
+    "home",
+    "blog"
   ],
   "dependencies": {
     "visionmedia/page.js": "*"
