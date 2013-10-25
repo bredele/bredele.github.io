@@ -1,0 +1,14 @@
+{
+  "name": "router",
+  "description": "bredele router",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "local": [
+    "home"
+  ],
+  "dependencies": {
+    "visionmedia/page.js": "*"
+  }
+}
