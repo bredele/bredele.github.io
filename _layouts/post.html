@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<article class="Article Grid">
+  <div class="Grid-content">
+    <span class="Avatar Article-avatar">Olivier Wietrich</span>
+    <a href="/" class="Article-index">Go to index</a>
+    <header class="Article-header">
+      <div class="Article-meta">
+        By <span rel="author">Olivier Wietrich</span> &mdash;
+        <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+      <h1 class="Article-title">{{ page.title }}</h1>
+      <h2 class="Article-subtitle">{{ page.subtitle }}</h2>
+    </header>
+    <section class="Article-content Copy">
+      {{ content }}
+    </section>
+  </div>
+</article>

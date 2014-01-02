@@ -1,9 +1,0 @@
-{
-  "name": "bredele.github.io",
-  "paths": [
-    "client"
-  ],
-  "local": [
-    "router"
-  ]
-}
