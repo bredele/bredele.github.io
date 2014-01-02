@@ -16,6 +16,12 @@ ol {
 ul.unstyled {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+	cursor:pointer;
+	outline:0;
+	color:#f39c12;
+}
 img {
 	vertical-align: middle;
 	border: 0;
@@ -59,6 +65,12 @@ figure {
 	margin: .75em 0 0;
 	line-height: 1.5;
 }
+
+h1,h2,h3,h4 {
+	color: #423f37;
+	font-weight: 600;
+}
+
 h1{
 	margin: 0.6563em 0 0 0;
 	font-size: 2.2857em; 
@@ -78,16 +90,6 @@ h4 {
 	margin: 1.05em 0 0 0;
 	font-size: 1.4286em;
 	line-height: 1.05;
-}
-h5 {
-	margin: 1.1667em 0 0 0;
-	font-size: 1.2857em; 
-	line-height: 1.1667;
-}
-h6{
-	margin: 1.3125em 0 0 0;
-	font-size: 1.1429em; 
-	line-height: 1.3125;
 }
 
 
@@ -246,8 +248,6 @@ img.left, img.right {
 	zoom: 1;
 }
 
-/* inline-block and table-cell for IE6/IE7 */
-/* warning: .col needs a width on IE6/IE7 */
 .ie67 .btn,
 .ie67 .col,
 .ie67 .inbl {
@@ -255,7 +255,19 @@ img.left, img.right {
 	zoom: 1;
 }
 .ie8 img {
-	width: auto; /* @bugfix for IE8 */
+	width: auto;
+}
+
+.main {
+	width:80%;
+}
+.article-link {
+	color:inherit;
+}
+
+.article-date {
+	font-size: 0.8rem;
+	color: #c7c2b8;
 }
 
 @media print {
