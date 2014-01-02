@@ -1,8 +1,7 @@
 ---
 layout: base
 ---
-
-<main class="ArticleIndex">
+<!-- <main class="ArticleIndex">
     <aside class="ArticleIndex-aside">
         <div class="Bio">
             <h1 class="Avatar Bio-avatar">Olivier Wietrich</h1>
@@ -13,18 +12,22 @@ layout: base
             </nav>
         </div>
     </aside>
-    <div class="ArticleIndex-content">
+</main> -->
+<main role="main">
+    <ul class="articles">
         {% for post in paginator.posts %}
           {% unless post.draft %}
-            <article class="ArticleExcerpt">
-                <div class="ArticleExcerpt-meta">
-                    <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                </div>
-                <h2 class="ArticleExcerpt-title">
-                    <a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a>
-                </h2>
+        <li>
+            <article>
+                <h1 class="article-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h1>
+                <time class="article-date" datetime="{{ post.date | date: "%Y-%d-%B" }}">
+                    {{ post.date | date: "%B %d, %Y" }}
+                </time>
             </article>
+        </li>
             {% endunless %}
         {% endfor %}
-    </div>
+    </ul>
 </main>
