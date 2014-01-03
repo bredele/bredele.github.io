@@ -8,9 +8,15 @@ This is not the first time I try to put a blog together. It took me a couple of 
 
 It's my first year in Calgary Canada. I came from France a few months ago with the idea to escape my anonymous life. I wanted to stop going round in circles and get new opportunities and challenges. 
 
-<figure class="center">
+
+
+
+<figure class="txtcenter">
   <img src="/images/francelife.gif" alt="going round in circles" />
 </figure>
+
+
+
 
 I wanted a new start and this is the reason why I wanted some place to write my thoughts and share the projects I'm working on.<!--  I remember my first employer here who said that a foreigner should never speak out in public, well that's kind of my goal and writing this blog is a good start. -->
 
