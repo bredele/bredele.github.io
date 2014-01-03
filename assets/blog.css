@@ -111,14 +111,6 @@ h4 {
 	color:#423f37;
 }
 
-::selection {
-  color:white;
-	background: #423f37; /* Safari */
-	}
-::-moz-selection {
-  color:white;
-	background: #423f37; /* Safari */
-}
 
 @font-face {
 	font-family: 'bredele';
