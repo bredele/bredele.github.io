@@ -167,6 +167,11 @@ h4 {
 	font-size: 1.4286em;
 }
 
+pre {
+	background: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+}
+
 code, 
 pre,
 samp,
@@ -188,8 +193,6 @@ strong {
 
 code {
 	padding: 2px 4px;
-	background: rgba(0,0,0,.04);
-	color: #b11; 
 }
 mark {
 	padding:2px 4px;
