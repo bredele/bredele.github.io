@@ -380,6 +380,11 @@ img.left, img.right {
 	zoom: 1.0;
 }
 
+@media (max-width: 925px) {
+	.main {
+		width:100%;
+	}
+}
 
 @media (max-width: 768px) {
 
