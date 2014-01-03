@@ -340,6 +340,12 @@ img.left, img.right {
 	font-size: 1.3em;
 }
 
+.post-section {
+	/* I don't like that */
+	font-size: 1.2em;
+	color:#423f37;
+}
+
 @media print {
 	p,
 	blockquote {
