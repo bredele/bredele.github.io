@@ -325,6 +325,10 @@ img.left, img.right {
 	color: #c7c2b8;
 }
 
+.article-body {
+	padding: 50px;
+}
+
 @media print {
 	p,
 	blockquote {
