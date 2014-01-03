@@ -343,9 +343,12 @@ img.left, img.right {
 	font-size: 1.3em;
 }
 
-.post-section {
+.article-body h2 {
 	/* I don't like that */
 	font-size: 1.2em;
+}
+
+.post-section {
 	color:#423f37;
 }
 
