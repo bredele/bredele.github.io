@@ -327,6 +327,7 @@ img.left, img.right {
 
 .article-body {
 	padding: 50px;
+	font-size: 1.3em;
 }
 
 @media print {
