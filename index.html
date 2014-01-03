@@ -16,7 +16,7 @@ layout: base
 <ul class="articles unstyled">
     {% for post in paginator.posts %}
       {% unless post.draft %}
-    <li>
+    <li class="mb4">
         <article>
             <h3 class="article-title">
                 <a class="article-link" href="{{ post.url }}">{{ post.title }}</a>
