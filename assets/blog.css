@@ -95,6 +95,18 @@ h4 {
 	line-height: 1.05;
 }
 
+.nav {
+	padding: 0 30px;
+  line-height: 80px;
+}
+
+.icon {
+	font-size:1.8em;
+	color: #57534a;
+}
+.icon:hover {
+	color:#423f37;
+}
 @font-face {
 	font-family: 'bredele';
 	src:url('fonts/bredele.eot');
