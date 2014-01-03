@@ -317,6 +317,13 @@ img.left, img.right {
 .main {
 	width:960px;
 }
+.article {
+	padding-bottom: 100px;
+}
+.article-footer {
+	font-size: 1em;
+	color: #a19c91;
+}
 .article-link {
 	color:inherit;
 }
