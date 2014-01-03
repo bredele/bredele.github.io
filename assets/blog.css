@@ -96,13 +96,14 @@ h4 {
 }
 
 .nav {
-	padding: 0 30px;
+	padding: 0 20px;
   line-height: 80px;
 }
 
 .icon {
 	font-size:1.8em;
-	color: #57534a;
+	color: rgba(66,63,55,0.15);
+	padding:10px;
 }
 .icon:hover {
 	color:#423f37;
