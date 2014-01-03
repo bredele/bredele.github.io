@@ -38,6 +38,7 @@ svg:not(:root) {
 	overflow: hidden;
 }
 figure {
+	padding:60px;
 	margin: 0;
 }
 
