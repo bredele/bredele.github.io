@@ -167,6 +167,7 @@ h4 {
 }
 
 pre {
+	font-size: .8em;
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
 	overflow: auto;
@@ -182,7 +183,7 @@ kbd {
 	white-space: pre-line;
 	white-space: pre-wrap;
 	font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
-	line-height: 1.1em;
+	line-height: 1.3em;
 }
 code, kbd, mark {
 	border-radius: 2px;
