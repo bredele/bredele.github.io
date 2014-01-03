@@ -12,7 +12,7 @@ It's my first year in Calgary Canada. I came from France a few months ago with t
   <img src="/images/francelife.gif" alt="going round in circles" />
 </figure>
 
-A new start and this is the reason why I wanted some place to write my thoughts and share the projects I'm working on.<!--  I remember my first employer here who said that a foreigner should never speak out in public, well that's kind of my goal and writing this blog is a good start. -->
+I wanted a new start and this is the reason why I wanted some place to write my thoughts and share the projects I'm working on.<!--  I remember my first employer here who said that a foreigner should never speak out in public, well that's kind of my goal and writing this blog is a good start. -->
 
 
 So far I really enjoy Canada, I met a lot of awesome people and I'm really glad to be here. I will write soon other articles about my adventures in Canada
