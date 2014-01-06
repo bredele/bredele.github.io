@@ -19,6 +19,7 @@ input[type="checkbox"] {
 }
 
 #todoapp {
+    position:relative;
         background: #fff;
         background: rgba(255, 255, 255, 0.9);
         margin: 100px;
@@ -39,6 +40,27 @@ input[type="checkbox"] {
         top: 0;
         left: 40px;
         height: 100%;
+}
+
+.benchmark {
+    position:relative;
+    top:-50px;
+    background: #f8f8f8;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #d3d3d3;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor:pointer;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+.benchmark:hover {
+    border-color: #c6c6c6;
+    background: #f0f0f0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
 }
 
 #todoapp input::-webkit-input-placeholder {
