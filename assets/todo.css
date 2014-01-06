@@ -290,6 +290,7 @@ label[for='toggle-all'] {
 }
 
 #todo-count {
+    font-size: .8em;
         float: left;
         text-align: left;
 }
