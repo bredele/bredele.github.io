@@ -1,18 +1,6 @@
 ---
 layout: base
 ---
-<!-- <main class="ArticleIndex">
-    <aside class="ArticleIndex-aside">
-        <div class="Bio">
-            <h1 class="Avatar Bio-avatar">Olivier Wietrich</h1>
-            <p>French front-end engineer living in Calgary</p>
-            <nav class="Bio-links">
-                <a href="http://twitter.com/bredeleca" class="twitter">@bredeleca</a>
-                <a href="http://github.com/bredele" class="github">Fork me</a>
-            </nav>
-        </div>
-    </aside>
-</main> -->
 <ul class="articles unstyled">
     {% for post in paginator.posts %}
       {% unless post.draft %}
