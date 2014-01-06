@@ -44,14 +44,14 @@ input[type="checkbox"] {
 
 .benchmark {
     position:relative;
-    top:-50px;
+    top:-60px; left: -60px;
+    font-size: .8em;
     background: #f8f8f8;
     color: #333;
     line-height: 30px;
     border: 1px solid #d3d3d3;
     padding: 0 10px;
     outline: 0;
-    font-weight: bold;
     border-radius: 2px;
     cursor:pointer;
     box-shadow: 0 1px 0 rgba(0,0,0,0.05);
@@ -61,6 +61,12 @@ input[type="checkbox"] {
     border-color: #c6c6c6;
     background: #f0f0f0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+
+.result {
+    top: -59px;
+    position: absolute;
+    left: 100px;
 }
 
 #todoapp input::-webkit-input-placeholder {
@@ -77,8 +83,8 @@ input[type="checkbox"] {
 }
 
 #header {
-        padding-top: 15px;
-        border-radius: inherit;
+    margin-top: -15px;
+    border-radius: inherit;
 }
 
 #header:before {
