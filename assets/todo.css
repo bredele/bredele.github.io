@@ -535,7 +535,7 @@ hr {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
 }
-@media (min-width: 624px) {
+@media (max-width: 624px) {
     #todoapp {
         margin: 100px 0;
     }
