@@ -486,6 +486,10 @@ img.left, img.right {
 
 @media (max-width: 640px) {
 
+  figure {
+  	padding:30px;
+  }
+  
 	.article-header, .articles {
 		padding:0 30px;
 	}
