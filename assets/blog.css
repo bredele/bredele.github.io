@@ -486,7 +486,7 @@ img.left, img.right {
 
 @media (max-width: 640px) {
 
-	.article-header {
+	.article-header, .articles {
 		padding:0 30px;
 	}
 
