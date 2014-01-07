@@ -486,6 +486,14 @@ img.left, img.right {
 
 @media (max-width: 640px) {
 
+	.article-header {
+		padding:0 30px;
+	}
+
+	.article-body {
+    padding: 30px;
+  }
+
 	.mod,
 	.col,
 	fieldset {
