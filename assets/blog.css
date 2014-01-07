@@ -489,9 +489,10 @@ img.left, img.right {
   figure {
   	padding:30px;
   }
-  
-	.article-header, .articles {
-		padding:0 30px;
+
+  /** it's better to have a single container or on body **/
+	.article-header, .articles, .article-footer {
+		padding:0 30px!important;
 	}
 
 	.article-body {
