@@ -535,6 +535,17 @@ hr {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
 }
+@media (min-width: 624px) {
+    #todoapp {
+        margin: 100px 0;
+    }
+    .benchmark {
+        left:0;
+    }
+    .result {
+        left: 160px;
+    }
+}
 
 @media (min-width: 899px) {
         .learn-bar {
